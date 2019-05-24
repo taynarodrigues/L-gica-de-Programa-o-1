@@ -1,0 +1,37 @@
+<meta charset="UTF-8">
+<script>
+    function pulaLinha(){
+        document.write("<br>");
+    }
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+
+    mostra("<h1>Bem-vindos</h1>");
+    mostra("<p>este é um simples programa</p>");
+</script>
+<script>
+/*Veja que funções são mais do que um conjunto de instruções que podemos chamar 
+a qualquer momento, elas permitem melhorar a legibilidade do código 
+escondendo sua complexidade.*/
+</script>
+<script>
+    function pulaLinha(){
+        document.write("<br>");
+    }
+
+    function exibeTitulo(titulo){
+        document.write("<h1>" + titulo + "</h1>");
+        pulaLinha();
+    }
+
+    function exibeParagrafo(paragrafo){
+        document.write("<p>" + paragrafo + "</p>");
+        pulaLinha();
+    }
+
+    exibeTitulo("Bem-vindos");
+    exibeParagrafo("Este é um simples programa");
+
+</script>
